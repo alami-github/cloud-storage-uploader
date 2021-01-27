@@ -15,7 +15,7 @@ Currently we're just provide GNU/Linux (x64) and Microsoft Windows (x64) binary 
 $ go run cs-uploader.go -filepath "/home/h3rucutu/cloud-storage-uploader/README.md" -bucket cs-bucket -directory testing-1 -object README.md
 
 [Microsoft Windows]
-> go run .\cs-uploader.go -filepath "C:\\Users\\h3rucutu\\workspace\\alami\\cloud-storage-uploader\\README.md" -bucket database-archive-bucket -directory testing-2 -object README.md
+> go run .\cs-uploader.go -filepath "C:\\Users\\h3rucutu\\workspace\\alami\\cloud-storage-uploader\\README.md" -bucket cs-bucket -directory testing-2 -object README.md
 ```
 
 ## How to run on your server
